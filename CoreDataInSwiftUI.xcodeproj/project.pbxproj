@@ -11,6 +11,7 @@
 		58708C962AB94933005243BE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58708C952AB94933005243BE /* ContentView.swift */; };
 		58708C982AB94936005243BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58708C972AB94936005243BE /* Assets.xcassets */; };
 		58708C9B2AB94936005243BE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58708C9A2AB94936005243BE /* Preview Assets.xcassets */; };
+		58708CA32AB94BB8005243BE /* CoreDataContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58708CA12AB94BB7005243BE /* CoreDataContainer.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		58708C952AB94933005243BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		58708C972AB94936005243BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58708C9A2AB94936005243BE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		58708CA22AB94BB8005243BE /* CoreDataContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataContainer.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				58708C952AB94933005243BE /* ContentView.swift */,
 				58708C972AB94936005243BE /* Assets.xcassets */,
 				58708C992AB94936005243BE /* Preview Content */,
+				58708CA12AB94BB7005243BE /* CoreDataContainer.xcdatamodeld */,
 			);
 			path = CoreDataInSwiftUI;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58708CA32AB94BB8005243BE /* CoreDataContainer.xcdatamodeld in Sources */,
 				58708C962AB94933005243BE /* ContentView.swift in Sources */,
 				58708C942AB94933005243BE /* CoreDataInSwiftUIApp.swift in Sources */,
 			);
@@ -339,6 +343,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		58708CA12AB94BB7005243BE /* CoreDataContainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				58708CA22AB94BB8005243BE /* CoreDataContainer.xcdatamodel */,
+			);
+			currentVersion = 58708CA22AB94BB8005243BE /* CoreDataContainer.xcdatamodel */;
+			path = CoreDataContainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 58708C882AB94933005243BE /* Project object */;
 }
